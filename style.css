@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+header{
+    background-image: url(tur.jpg);
+    height: 750px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bike{
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0%;
+}
+.bike li{
+    display: inline-block;
+    background-color: grey;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    border: 1px solid white
+
+    
+}
+.bike li a{
+    color: beige;
+    text-align: center;
+    position: relative;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    display: inline-block;
+    width: 270px;
+    height: 48px;
+    padding-top: 10px;
+
+
+}
+.bike li a:hover{
+    background-color: black;
+}
+.motor{
+    position: absolute;
+    display: none;
+}
+.bike li:hover .motor{
+    display: block;
+}
+.motor li{
+    position: relative;
+    top: 2px;
+    width: 272px;
+    left: 0px;
+    display: block;
+    background-color: red;
+}
+.motor li a{
+    position: relative;
+    display: block;
+    width: 270px;
+    margin-left: 20px;
+    right: 20px;
+    text-align: center;
+
+}
+
+.motor li a:hover{
+    background-color: aqua;
+}
+    
+
